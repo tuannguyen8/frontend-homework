@@ -1,5 +1,4 @@
 /* Add your code here */
-
 img {
     max-width: 100%;
 }
@@ -43,3 +42,5 @@ img {
 .various{
     filter: blur(2px) grayscale(1);
 }
+
+
