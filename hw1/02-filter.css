@@ -1,1 +1,45 @@
 /* Add your code here */
+
+img {
+    max-width: 100%;
+}
+.container {
+  max-width: 1024px;
+  margin: auto;
+}
+.container .content{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+.container .content figure{
+    width: 17%;
+}
+@media screen and (max-width: 1000px) {
+    .container .content figure{
+        width: 39%;
+    }
+}
+.grayscale{
+    filter: grayscale(1);
+}
+.blur{
+    filter: blur(2px);
+}
+.invert{
+    filter: invert(1);
+}
+.brightness{
+    filter: brightness(50%);
+}
+.saturation{
+    filter: saturate(4);
+}
+
+.sepia{
+    filter: sepia(1);
+}
+
+.various{
+    filter: blur(2px) grayscale(1);
+}
