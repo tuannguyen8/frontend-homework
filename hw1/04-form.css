@@ -1,1 +1,81 @@
 /* Add your code here */
+
+body{
+    background-color: #0173a0;
+}
+.container {
+  max-width: 1024px;
+  margin: auto;
+  
+  
+}
+
+.main-form{
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+form{
+    width: 100%;
+}
+h1,span{
+    color: #0173a0;
+    
+}
+h7, .name-label, .email-label, .registration-label,
+.anything-else-label{
+    display: block;
+    font-weight: 700;
+}
+.name-input, .email-input, .registration-select, 
+.anything-else-input, .radio-check{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 15px;
+}
+.radio-check{
+    display: flex;
+}
+span{
+    font-weight: 400;
+}
+.anything-else-input{
+    height: 100px;
+    border-radius: 5px;
+}
+.sub-reset{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.submit-btn{
+    width: 49%;
+    margin-right: 6px;
+    height: 40px;
+    background-color: #0173a0;
+    color: white;
+    font-size: 20px;
+}
+.submit-btn:hover{
+    background-color: orange;
+}
+.reset-btn{
+    width: 49%;
+    height: 40px;
+    border-bottom: 1px solid #0173a0;
+    color: #0173a0;
+    font-size: 20px;
+}
+.reset-btn:hover{
+    background-color: orange;
+}
+.cs410p-text{
+    margin-right: 10px;
+}
+.registration-select{
+    border-radius:3px;
+}
