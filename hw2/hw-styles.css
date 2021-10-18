@@ -53,10 +53,6 @@ li.active {
         padding: 0;
     }
 }
-/* Laptop - 1024px x 810px
-Tablet - 768px x 810px
-Mobile - 414px x 810px */
-
 
 /* Code for exercise 03-flex */
 
@@ -284,41 +280,7 @@ h1{
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /* Code for exercise 06-bootstrap-grid */
-/* .exer-6{
-    padding: 10px;
-}
-.bootstrap-grid .row {
-    height: 100px;
-    border: 1px solid var(--white);
-    padding: 10px;
-}
-
-.row1{
-    background-color: var(--purple);
-}
-
-.row2{
-    background-color: var(--navy);
-}
-
-.row3{
-    background-color: var(--teal);
-}
-
-.row4{
-    background-color: var(--green);
-} */
 
 .bootstrap-grid .row > * {
   height: 100px;
