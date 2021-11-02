@@ -13,7 +13,7 @@
   </head>
   <body class="bg-info">
     <main>
-      <form class="bg-light border rounded w-50 mx-auto mt-5 p-3">
+      <form onsubmit="return false;" class="bg-light border rounded w-50 mx-auto mt-5 p-3">
         <h1 class="mt-2 mb-4">Palindrome</h1>
         <div class="form-group w-50">
           <label for="number">Enter a positive number:</label>
@@ -21,7 +21,10 @@
         </div>
         <div class="form-group">
           <label>Is this a palindrome?</label>
-          <div id="result">No</div>
+          <div class="result-div">
+            <div id="result">No</div>
+          </div>
+          
         </div>
       </form>
     </main>

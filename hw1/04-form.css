@@ -37,6 +37,9 @@ h7, .name-label, .email-label, .registration-label,
     height: 30px;
     margin-bottom: 15px;
 }
+.anything-else-input{
+    padding: 15px;
+}
 .radio-check{
     display: flex;
 }

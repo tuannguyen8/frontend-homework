@@ -6,15 +6,69 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>JavaScript Form Exercise</title>
     <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="../hw1/04-form.css" />
     <script defer src="01-form.js"></script>
   </head>
   <body class="bg-dark text-dark">
     <main>
-      <h1>Contact Form</h1>
-      <form action="">
-        <!-- Step 1 - Insert your previous form here -->
-        <!-- Step 2 - Address any responsiveness and/or accessibility issues -->
-      </form>
+      <div class="container">
+        <div class="main-form">
+          <form class="actual-form" action="">
+            <h1>Contact Form</h1>
+            <div class="info-field">
+              <div class="name">
+                <label class="name-label" for="name">Name <span>(required)</span></label>
+                <input class="name-input" type="text" id="name" name="name" required />
+              </div>
+              <div class="email">
+                <label class="email-label" for="email">Email <span>(required)</span></label>
+                <input class="email-input" type="email" id="email" name="email" required />
+              </div>
+            </div>
+            <div class="registration">
+              <label class="registration-label" for="class-select">Registration Status:</label>
+              <select class="registration-select" name="class" id="class-select">
+                <option value="none">Choose an Option</option>
+                <option value="Waiting List">Waiting List</option>
+                <option value="Full">Full</option>
+                <option value="Registed">Registed</option>
+              </select>
+            </div>
+            <div class="class-section">
+              <div>
+                <h7>Class Section</h7>
+              </div>
+              <div class="radio-check">
+                <input type="radio" id="cs410p" name="section" value="cs410p">
+                <label class="cs410p-text" for="cs410p">CS 410P</label><br>
+                <input type="radio" id="cs510" name="section" value="cs510">
+                <label class="cs510-text" for="cs510">CS 510</label><br>
+              </div>
+            </div>
+            <div class="following-courses">
+              <div>
+                <h7>Have you taken any of the following course</h7>
+              </div>
+              <div class="box-check">
+                <input class="checkbox" type="checkbox" id="promgraming" name="promgraming" value="Programing Language">
+                <label for="promgraming"> Programming Languages</label><br>
+                <input class="checkbox" type="checkbox" id="operating" name="operating" value="Operating Systems">
+                <label for="operating"> Operating Systems</label><br>
+                <input class="checkbox" type="checkbox" id="full-stack" name="full-stack" value="Full Stack Web Development">
+                <label for="full-stack"> Full Stack Web Development</label><br><br>
+              </div>
+            </div>
+            <div class="anything-else">
+              <label class="anything-else-label" for="anything">Anything else?</label>
+              <textarea class="anything-else-input" name="anything" id="anything" rows="1"></textarea>
+            </div>
+            <div class="sub-reset">
+              <input class="submit-btn" type="submit" name="submit" value="Submit" />
+              <input class="reset-btn" type="reset" name="reset" value="Reset" />
+            </div>
+          </form>
+        </div>
+      </div>
     </main>
   </body>
 </html>
