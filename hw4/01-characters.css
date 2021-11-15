@@ -11,3 +11,59 @@ h1 {
   flex-flow: row wrap;
   justify-content: center;
 }
+.characters{
+  width: 1024px;
+  margin: auto;
+}
+@media only screen and (min-width: 1023px) {
+  .characters{
+    width: 1024px;
+    margin: auto;
+  }
+  .card-class{
+    width: 25%;
+    padding-top: 15px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .characters{
+    width: 876px;
+    margin: auto;
+  }
+  .card-class{
+    width: 30%;
+    padding-top: 15px;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .characters{
+    width: 876px;
+    margin: auto;
+  }
+  .card-class{
+    width: 48%;
+    padding-top: 15px;
+  }
+}
+.card-class:hover {
+  background-color: #0B0B45;
+  color: var(--white);
+}
+
+img{  
+  width: 90%;
+  height: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.title-class{  
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.name-class{  
+  text-align: center;
+}
