@@ -1,13 +1,12 @@
 import React from 'react';
-const Dogs = () =>{
+const HomePages = () =>{
   return (
-    <div>
-      <h3>Home</h3>
-      <div>
-        {/* <img src="./dog.png"/>
-        <img src="./dog.png"/> */}
+    <div className='Content'>
+      <div className='welcome'>
+        <h1>Welcome to My Homework 4</h1>
       </div>
+      
     </div>
   );
 }
-export default Dogs;
+export default HomePages;
