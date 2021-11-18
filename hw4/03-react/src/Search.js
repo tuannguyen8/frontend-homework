@@ -6,7 +6,6 @@ class SearchPage extends Component{
   constructor(props){
     super(props)
     this.state ={
-      characterId: -1,
       data: {},
       tempCharacter: ""
       
@@ -22,7 +21,6 @@ class SearchPage extends Component{
       .then(response => response.json())
       .then(data => {
         console.log(data)
-        this.setState({characterId: Number(id)})
         this.setState({data: data})
       })
       .catch(error => {
